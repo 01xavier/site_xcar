@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+header{
+    padding: 20px;
+    background-color:black;
+    color:white;
+    }
+
+    header ,
+    section h2,
+    section h3,
+    form button{
+        font-family: "Oswald", sans-serif;
+    }
+     body{
+        font-family: "Roboto", sans-serif;
+     }
+
+    header nav li{
+        display: inline;
+        margin-left: 15px;
+        font-size:20px;
+    }
+
+    header nav li a{
+        color:white;
+        text-decoration: none;
+    }
+
+    .container{
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header .container,
+    section .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    section img{
+        width: 50%;
+        height: auto;
+    }
+    
+    .brands-list img{
+        width: 100px;
+    }
+
+    .brands-list li{
+        display: inline;
+    }
+
+    section .container{
+        align-items: flex-start;
+    }
+
+    section{
+        padding: 30px 0;
+    }
+
+    section h2{
+        margin-bottom: 10px;
+    }
+
+    section p{
+        margin-bottom: 10px;
+    }
+
+    .star-front{
+        margin-right:  30px;
+    }
+
+    .links img{
+        width: 40px;
+    }
+    
+    .links li{
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    .links li a{
+        text-decoration: none;
+    }
+
+    #contact .container{
+        display: block;
+    }
+    .contact-methods{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    form input, 
+    form textarea,
+    form button {
+        display: block;
+        width: 320px;
+        margin-bottom: 8px;
+        padding: 8px;
+    }
+
+        form textarea{
+            resize: none;
+            height: 150px;
+        }
+
+        section h3{
+            margin-bottom: 15px;
+        }
+
+        form button{
+            background-color: rgb(195, 237, 238);
+            border: none;
+            font-size: large;
+        }
+
+        form button:hover{
+            background-color: rgb(109, 164, 165);
+        }
+
+        input:focus, textarea:focus{
+            background-color:rgb(240, 240, 240);
+        }
+
+        footer{
+            background-color:rgb(195, 237, 238);
+            color: black;
+            padding: 16px;
+        }
